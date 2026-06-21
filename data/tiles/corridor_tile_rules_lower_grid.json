@@ -1,0 +1,28 @@
+{
+  "corridor_floor_ids": [
+    "corridor_floor_4m",
+    "floor_wet_asphalt_4m",
+    "floor_metal_grate_4m"
+  ],
+  "doorway_ids": [
+    "wall_doorway_4m"
+  ],
+  "wall_ids": [
+    "wall_solid_neon_4m",
+    "wall_pipe_cluster_4m",
+    "wall_holo_ad_blank_4m"
+  ],
+  "intersection_ids": [
+    "corridor_intersection_4m"
+  ],
+  "entrance_ids": [
+    "dungeon_entrance_gate_4m",
+    "stairs_down_4m"
+  ],
+  "rules": [
+    "Corridors must be connected to at least one other walkable corridor/door/entrance cell.",
+    "Dead ends should be limited and should usually terminate at loot, reward, lore, or event content.",
+    "Corridors should have visible wall/border support so they do not read as open plaza floor.",
+    "Room transitions should use doorway markers."
+  ]
+}

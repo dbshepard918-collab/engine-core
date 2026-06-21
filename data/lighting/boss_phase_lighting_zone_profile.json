@@ -1,0 +1,15 @@
+{
+  "id": "boss_phase_neon_red_cyan",
+  "zone_mode": "BOSS_PHASE",
+  "ambient_color": "#050814FF",
+  "accent_color": "#00D9FFFF",
+  "light_energy_multiplier": 1.35,
+  "enable_flicker": true,
+  "enable_shadows": true,
+  "max_active_lights": 10,
+  "boss_phase_color_overrides": [
+    "#00D9FFFF",
+    "#FF245CFF",
+    "#C100FFFF"
+  ]
+}

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://27000brlueqm"
+
+[deps]
+
+files=["res://data/prompts/tile_prompt_catalog.category.translation", "res://data/prompts/tile_prompt_catalog.subject.translation", "res://data/prompts/tile_prompt_catalog.material.translation", "res://data/prompts/tile_prompt_catalog.lighting.translation", "res://data/prompts/tile_prompt_catalog.camera.translation", "res://data/prompts/tile_prompt_catalog.width.translation", "res://data/prompts/tile_prompt_catalog.height.translation", "res://data/prompts/tile_prompt_catalog.seed.translation", "res://data/prompts/tile_prompt_catalog.target.translation", "res://data/prompts/tile_prompt_catalog.negative.translation"]
+
+source_file="res://data/prompts/tile_prompt_catalog.csv"
+dest_files=["res://data/prompts/tile_prompt_catalog.category.translation", "res://data/prompts/tile_prompt_catalog.subject.translation", "res://data/prompts/tile_prompt_catalog.material.translation", "res://data/prompts/tile_prompt_catalog.lighting.translation", "res://data/prompts/tile_prompt_catalog.camera.translation", "res://data/prompts/tile_prompt_catalog.width.translation", "res://data/prompts/tile_prompt_catalog.height.translation", "res://data/prompts/tile_prompt_catalog.seed.translation", "res://data/prompts/tile_prompt_catalog.target.translation", "res://data/prompts/tile_prompt_catalog.negative.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

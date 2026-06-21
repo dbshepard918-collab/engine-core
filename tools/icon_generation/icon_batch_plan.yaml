@@ -1,0 +1,9 @@
+icons:
+  - id: skill_viral_ping
+    prompt: "original cyberpunk skill icon, green viral pulse ring, dark background, sharp silhouette, no text, no logos"
+    output: assets/textures/ui/icons/skills/viral_ping.png
+    review: pending
+  - id: item_pulse_blade
+    prompt: "original cyberpunk weapon icon, neon mono blade, magenta cyan rim light, square game icon, no text, no logos"
+    output: assets/textures/ui/icons/items/pulse_blade.png
+    review: pending

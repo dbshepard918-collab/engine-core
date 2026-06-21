@@ -1,0 +1,12 @@
+{
+  "id": "loot_reveal_neon_gold",
+  "trigger_mode": "LOOT_REVEAL",
+  "target_group": "tile_dynamic_lights",
+  "color_override": "#FFD45CFF",
+  "energy_multiplier": 1.6,
+  "fade_time": 0.35,
+  "enable_target_lights": true,
+  "disable_target_lights_on_exit": false,
+  "one_shot": true,
+  "required_group": "player"
+}

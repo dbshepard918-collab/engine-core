@@ -1,0 +1,20 @@
+{
+  "active_profile": {
+    "id": "puzzle_active_cyan",
+    "accent_color": "#00D9FFFF",
+    "light_energy_multiplier": 1.2,
+    "enable_flicker": false
+  },
+  "solved_profile": {
+    "id": "puzzle_solved_green",
+    "accent_color": "#50FF8AFF",
+    "light_energy_multiplier": 1.45,
+    "enable_flicker": false
+  },
+  "error_profile": {
+    "id": "puzzle_error_red",
+    "accent_color": "#FF245CFF",
+    "light_energy_multiplier": 1.6,
+    "enable_flicker": true
+  }
+}

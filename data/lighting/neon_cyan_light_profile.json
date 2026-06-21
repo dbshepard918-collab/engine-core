@@ -1,0 +1,14 @@
+{
+  "id": "neon_cyan_small",
+  "light_kind": "OMNI",
+  "color": "#00D9FFFF",
+  "energy": 1.25,
+  "range": 7.0,
+  "shadow_enabled": false,
+  "distance_fade_enabled": true,
+  "distance_fade_begin": 28.0,
+  "distance_fade_length": 12.0,
+  "flicker_enabled": true,
+  "flicker_amount": 0.15,
+  "max_instances_per_chunk": 6
+}

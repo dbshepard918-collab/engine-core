@@ -1,0 +1,17 @@
+{
+  "loot_room_rules": [
+    "Loot rooms should branch from corridors rather than replace the critical path.",
+    "Loot rooms must have one readable entrance doorway.",
+    "Locked loot rooms require either a key, hack, elite guard, event clear, or boss clear condition.",
+    "Loot sockets should be away from the entrance line so rewards feel spatially intentional.",
+    "Ambush caches may spawn traps or guards but must not block reward pickup after clear."
+  ],
+  "socket_tags": [
+    "loot_common",
+    "loot_rare",
+    "trap",
+    "loot_guard",
+    "hack_terminal"
+  ],
+  "top_down_readability": "Loot rooms should read as small side pockets, vaults, side labs, or caches from the high-isometric camera."
+}

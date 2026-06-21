@@ -1,0 +1,28 @@
+{
+  "solid_wall_ids": [
+    "wall_solid_neon_4m",
+    "wall_pipe_cluster_4m",
+    "wall_holo_ad_blank_4m"
+  ],
+  "doorway_ids": [
+    "wall_doorway_4m"
+  ],
+  "corner_inner_ids": [
+    "wall_corner_inner_4m"
+  ],
+  "corner_outer_ids": [
+    "wall_corner_outer_4m"
+  ],
+  "floor_ids": [
+    "floor_plain_4m",
+    "floor_wet_asphalt_4m",
+    "floor_metal_grate_4m",
+    "corridor_floor_4m"
+  ],
+  "rules": [
+    "Walls must touch at least one floor or corridor tile unless they are boundary filler.",
+    "Doorways must connect two walkable floor/corridor cells on opposite sides.",
+    "Corners must have both wall and floor neighbors.",
+    "Hazards must not directly replace wall collision boundaries."
+  ]
+}

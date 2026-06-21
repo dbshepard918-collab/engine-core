@@ -1,0 +1,34 @@
+{
+  "assets": [
+    {
+      "asset_id": "char_mara_voss_001",
+      "source": "blender_sculpt",
+      "asset_type": "character",
+      "region": "lower_grid",
+      "status": "raw_generated",
+      "raw_model_path": "assets/meshes/characters/char_mara_voss_001.glb",
+      "clean_blend_path": "art_source/blender/ai_assets_cleanup/char_mara_voss_001_clean.blend",
+      "glb_export_path": "assets/meshes/characters/char_mara_voss_001.glb"
+    },
+    {
+      "asset_id": "char_kael_drex_002",
+      "source": "blender_sculpt",
+      "asset_type": "character",
+      "region": "upper_grid",
+      "status": "raw_generated",
+      "raw_model_path": "assets/meshes/characters/char_kael_drex_002.glb",
+      "clean_blend_path": "art_source/blender/ai_assets_cleanup/char_kael_drex_002_clean.blend",
+      "glb_export_path": "assets/meshes/characters/char_kael_drex_002.glb"
+    },
+    {
+      "asset_id": "char_zara_night_003",
+      "source": "blender_sculpt",
+      "asset_type": "character",
+      "region": "mid_grid",
+      "status": "raw_generated",
+      "raw_model_path": "assets/meshes/characters/char_zara_night_003.glb",
+      "clean_blend_path": "art_source/blender/ai_assets_cleanup/char_zara_night_003_clean.blend",
+      "glb_export_path": "assets/meshes/characters/char_zara_night_003.glb"
+    }
+  ]
+}

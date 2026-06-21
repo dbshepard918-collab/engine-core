@@ -1,0 +1,13 @@
+{
+  "socket_tags": [
+    "dungeon_main",
+    "dungeon_side",
+    "boss_gate"
+  ],
+  "rules": [
+    "Main dungeon entrances must be reachable from the main route.",
+    "Side dungeon entrances should be visible from or near optional loops.",
+    "Each dungeon entrance tile must have a matching PlacementSocket within 6 meters.",
+    "Dungeon entrances should have at least one dynamic or emissive light cue unless disabled for stealth/hidden entrances."
+  ]
+}

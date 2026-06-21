@@ -1,0 +1,18 @@
+{
+  "puzzle_room_rules": [
+    "Puzzle rooms must have a readable entrance and exit direction.",
+    "Puzzle inputs should be distributed so the player can parse them from the high-isometric camera.",
+    "Puzzle rooms may gate side loot or main progression, but the required state should be explicit in resource data.",
+    "Hazard placement must not block all route options unless the puzzle explicitly turns hazards off.",
+    "Solution lighting should communicate a solved state without relying on tiny text."
+  ],
+  "socket_tags": [
+    "puzzle",
+    "switch",
+    "pressure_plate",
+    "hack_node",
+    "puzzle_reward",
+    "puzzle_ambush"
+  ],
+  "top_down_readability": "Use lighting, silhouette, and socket spacing to make puzzle elements readable from the fixed ARPG camera."
+}

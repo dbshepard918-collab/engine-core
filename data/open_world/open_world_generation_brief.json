@@ -1,0 +1,36 @@
+{
+  "camera": "top-down high-isometric cyberpunk ARPG",
+  "ip_safety": "Use ARPG open-world readability patterns only; do not copy proprietary Diablo IV layouts, names, icons, dungeon shapes, or world map art.",
+  "world_structure": {
+    "regions": [
+      "Rainmarket",
+      "Lower Grid",
+      "Helix Plaza",
+      "Holo Canyon",
+      "Neon Below"
+    ],
+    "region_rules": [
+      "Each region contains a hub/safe node, fast travel node, main quest POI chain, side POI loops, world events, stronghold-like hostile zone, and 3-6 dungeon entrances.",
+      "Dungeon entrances are visible map goals but must connect to separate procedural dungeon seeds.",
+      "Roads and neon transit lines create main routes; alleys, rooftops, tunnels, and hardlight bridges create optional loops."
+    ]
+  },
+  "poi_types": [
+    "town_hub",
+    "fast_travel",
+    "vendor",
+    "crafting",
+    "world_event",
+    "elite_patrol",
+    "stronghold",
+    "boss_gate",
+    "lore",
+    "resource_node",
+    "dungeon_entrance"
+  ],
+  "dungeon_rules": [
+    "Every dungeon has entrance, critical path, branches, event rooms, objective room, boss/exit room, and reward room.",
+    "Dungeons inherit theme and enemy table from their overworld entrance region.",
+    "Dungeon map must read clearly from top-down camera with strong silhouettes and neon edge cues."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "game_camera": "top-down / high isometric ARPG camera",
+  "design_reference": "Diablo-like genre readability only; do not copy proprietary maps, assets, icons, UI, names, or layouts.",
+  "tile_size_meters": 4,
+  "core_layout_rules": [
+    "Every combat pocket must have at least two exits unless deliberately used as a boss arena.",
+    "Main path should be readable in a top-down camera within 2 seconds.",
+    "Use loops, side rooms, dead-end loot pockets, and safe pockets to vary pacing.",
+    "Place landmarks at decision points so procedural layouts do not feel random.",
+    "Keep collision silhouettes simple and navigation lanes clear for click-to-move and swarm AI.",
+    "Cyberpunk readability comes from neon edges, wet reflective floors, silhouettes, hazard colors, and vertical prop framing\u2014not from readable signage."
+  ],
+  "districts": {
+    "lower_grid": {
+      "visual_motifs": [
+        "wet concrete",
+        "metal grates",
+        "pipe walls",
+        "cyan-magenta neon",
+        "underpass markets"
+      ],
+      "layout_motifs": [
+        "maintenance tunnels",
+        "gang toll gates",
+        "flooded side pockets",
+        "boss gate"
+      ],
+      "hazards": [
+        "electric puddles",
+        "steam vents",
+        "collapsing grates"
+      ]
+    },
+    "rainmarket": {
+      "visual_motifs": [
+        "rain tarps",
+        "clinic lights",
+        "food stalls",
+        "trash piles",
+        "puddles"
+      ],
+      "layout_motifs": [
+        "market loops",
+        "vendor hub",
+        "clinic safe room",
+        "ambush alleys"
+      ],
+      "hazards": [
+        "slick oil",
+        "sparking generators",
+        "crowd barricades"
+      ]
+    },
+    "helix_plaza": {
+      "visual_motifs": [
+        "black glass",
+        "white corporate panels",
+        "red scanner lights",
+        "drone pads"
+      ],
+      "layout_motifs": [
+        "security chokepoints",
+        "symmetry",
+        "office side rooms",
+        "checkpoint gates"
+      ],
+      "hazards": [
+        "scanner beams",
+        "turret pods",
+        "lockdown doors"
+      ]
+    },
+    "holo_canyon": {
+      "visual_motifs": [
+        "hardlight bridges",
+        "blank ad frames",
+        "glitch fog",
+        "blue-purple holograms"
+      ],
+      "layout_motifs": [
+        "fragmented platforms",
+        "signal storm arenas",
+        "false loot pockets",
+        "bridge loops"
+      ],
+      "hazards": [
+        "glitch zones",
+        "vanishing floor panels",
+        "viral projection ambushes"
+      ]
+    }
+  }
+}

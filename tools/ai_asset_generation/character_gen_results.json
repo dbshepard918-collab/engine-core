@@ -1,0 +1,23 @@
+[
+  {
+    "id": "char_mara_voss_001",
+    "name": "Mara Voss",
+    "glb_path": "C:\\Users\\dbshe\\OneDrive\\Documents\\engine-core\\assets\\meshes\\characters\\char_mara_voss_001.glb",
+    "region": "lower_grid",
+    "success": true
+  },
+  {
+    "id": "char_kael_drex_002",
+    "name": "Kael Drex",
+    "glb_path": "C:\\Users\\dbshe\\OneDrive\\Documents\\engine-core\\assets\\meshes\\characters\\char_kael_drex_002.glb",
+    "region": "upper_grid",
+    "success": true
+  },
+  {
+    "id": "char_zara_night_003",
+    "name": "Zara Night",
+    "glb_path": "C:\\Users\\dbshe\\OneDrive\\Documents\\engine-core\\assets\\meshes\\characters\\char_zara_night_003.glb",
+    "region": "mid_grid",
+    "success": true
+  }
+]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dm5ssja1k7s3a"
+
+[deps]
+
+files=["res://data/prompts/procedural_city_prompt_catalog.tool.translation", "res://data/prompts/procedural_city_prompt_catalog.type.translation", "res://data/prompts/procedural_city_prompt_catalog.district.translation", "res://data/prompts/procedural_city_prompt_catalog.use.translation", "res://data/prompts/procedural_city_prompt_catalog.prompt.translation", "res://data/prompts/procedural_city_prompt_catalog.negative.translation", "res://data/prompts/procedural_city_prompt_catalog.width.translation", "res://data/prompts/procedural_city_prompt_catalog.height.translation", "res://data/prompts/procedural_city_prompt_catalog.seed.translation", "res://data/prompts/procedural_city_prompt_catalog.output.translation", "res://data/prompts/procedural_city_prompt_catalog.notes.translation"]
+
+source_file="res://data/prompts/procedural_city_prompt_catalog.csv"
+dest_files=["res://data/prompts/procedural_city_prompt_catalog.tool.translation", "res://data/prompts/procedural_city_prompt_catalog.type.translation", "res://data/prompts/procedural_city_prompt_catalog.district.translation", "res://data/prompts/procedural_city_prompt_catalog.use.translation", "res://data/prompts/procedural_city_prompt_catalog.prompt.translation", "res://data/prompts/procedural_city_prompt_catalog.negative.translation", "res://data/prompts/procedural_city_prompt_catalog.width.translation", "res://data/prompts/procedural_city_prompt_catalog.height.translation", "res://data/prompts/procedural_city_prompt_catalog.seed.translation", "res://data/prompts/procedural_city_prompt_catalog.output.translation", "res://data/prompts/procedural_city_prompt_catalog.notes.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

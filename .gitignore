@@ -1,0 +1,17 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Temp and backup files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Blender backup files
+*.blend1
+*.blend2

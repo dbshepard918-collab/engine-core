@@ -1,0 +1,22 @@
+{
+    "workflows": [
+        {
+            "name": "Generate cyberpunk texture prompt batch",
+            "trigger_phrase": "create texture prompts for neon district kit",
+            "local_script": "python tools/sd_generation/build_prompt_batch.py --kit neon_district --count 40",
+            "requires_confirmation": false
+        },
+        {
+            "name": "Run Godot test suite",
+            "trigger_phrase": "run project tests and summarize failures",
+            "local_script": "godot --headless --path . -s res://scripts/tests/test_runner.gd",
+            "requires_confirmation": false
+        },
+        {
+            "name": "Export selected Blender assets",
+            "trigger_phrase": "export selected blender assets",
+            "local_script": "blender --background art_source.blend --python tools/blender_batch/export_selected_to_glb.py",
+            "requires_confirmation": true
+        }
+    ]
+}

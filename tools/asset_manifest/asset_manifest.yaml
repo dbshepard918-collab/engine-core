@@ -1,0 +1,19 @@
+assets:
+  - id: env_neon_alley_wall_a
+    type: environment_module
+    owner: art_env
+    source_file: assets/art_source/blender/neon_alley_modules.blend
+    exported_file: assets/meshes/environment/neon_alley_wall_a.glb
+    texture_set: tex_neon_alley_wall_a
+    collision: simple_box
+    lods: [lod0, lod1, lod2]
+    status: integrated
+    review: approved
+    notes: "2m grid module, emissive sign sockets included."
+  - id: enemy_corp_scout_drone
+    type: enemy_character
+    source_file: assets/art_source/blender/enemies/corp_scout_drone.blend
+    exported_file: assets/meshes/enemies/corp_scout_drone.glb
+    scene_file: scenes/actors/enemies/drone/CorpScoutDrone.tscn
+    animation_set: anim_corp_drone_basic
+    status: playable

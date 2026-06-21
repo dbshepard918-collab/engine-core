@@ -1,0 +1,17 @@
+{
+  "boss_room_rules": [
+    "Boss rooms must have a guaranteed entrance and exit doorway.",
+    "Boss spawn socket must be near the arena center.",
+    "Reward socket should be behind or near the exit route.",
+    "Add-spawn sockets should be distributed around the arena edge.",
+    "Hazard tiles must not fully block the route from entrance to exit.",
+    "Lighting zone should activate on player entry and may change by boss phase."
+  ],
+  "recommended_shapes": [
+    "CIRCLE",
+    "RECTANGLE",
+    "DIAMOND",
+    "MULTI_PLATFORM"
+  ],
+  "top_down_readability": "Keep central combat floor open and wall silhouette bold from high-isometric camera."
+}

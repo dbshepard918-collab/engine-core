@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://btc2ohkrvydaw"
+
+[deps]
+
+files=["res://data/prompts/tripo_prompt_catalog.type.translation", "res://data/prompts/tripo_prompt_catalog.use.translation", "res://data/prompts/tripo_prompt_catalog.mode.translation", "res://data/prompts/tripo_prompt_catalog.prompt.translation", "res://data/prompts/tripo_prompt_catalog.negative.translation", "res://data/prompts/tripo_prompt_catalog.texture.translation", "res://data/prompts/tripo_prompt_catalog.pbr.translation", "res://data/prompts/tripo_prompt_catalog.texture.translation", "res://data/prompts/tripo_prompt_catalog.geometry.translation", "res://data/prompts/tripo_prompt_catalog.face.translation", "res://data/prompts/tripo_prompt_catalog.quad.translation", "res://data/prompts/tripo_prompt_catalog.smart.translation", "res://data/prompts/tripo_prompt_catalog.generate.translation", "res://data/prompts/tripo_prompt_catalog.export.translation", "res://data/prompts/tripo_prompt_catalog.notes.translation"]
+
+source_file="res://data/prompts/tripo_prompt_catalog.csv"
+dest_files=["res://data/prompts/tripo_prompt_catalog.type.translation", "res://data/prompts/tripo_prompt_catalog.use.translation", "res://data/prompts/tripo_prompt_catalog.mode.translation", "res://data/prompts/tripo_prompt_catalog.prompt.translation", "res://data/prompts/tripo_prompt_catalog.negative.translation", "res://data/prompts/tripo_prompt_catalog.texture.translation", "res://data/prompts/tripo_prompt_catalog.pbr.translation", "res://data/prompts/tripo_prompt_catalog.texture.translation", "res://data/prompts/tripo_prompt_catalog.geometry.translation", "res://data/prompts/tripo_prompt_catalog.face.translation", "res://data/prompts/tripo_prompt_catalog.quad.translation", "res://data/prompts/tripo_prompt_catalog.smart.translation", "res://data/prompts/tripo_prompt_catalog.generate.translation", "res://data/prompts/tripo_prompt_catalog.export.translation", "res://data/prompts/tripo_prompt_catalog.notes.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

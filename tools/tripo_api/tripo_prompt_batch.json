@@ -1,0 +1,21 @@
+{
+  "security_note": "This file intentionally contains no API key. The pipeline reads TRIPO_API_KEY from your local environment.",
+  "jobs": [
+    {
+      "id": "char_mara_voss_base_mesh",
+      "type": "text_to_model",
+      "prompt": "original cyberpunk underground surgeon woman, neutral A-pose, black clinic coat, chrome fingers, utility belt, clean game-ready silhouette, no text, no logo",
+      "texture": true,
+      "pbr": true,
+      "texture_quality": "detailed"
+    },
+    {
+      "id": "enemy_corp_scout_drone_base_mesh",
+      "type": "text_to_model",
+      "prompt": "original compact corporate scout drone, hovering spherical body, camera eye, fold-out laser emitter, black white gunmetal shell, red security lights, clean game asset, no logo, no text",
+      "texture": true,
+      "pbr": true,
+      "texture_quality": "detailed"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "stair_up_ids": [
+    "stairs_up_4m"
+  ],
+  "stair_down_ids": [
+    "stairs_down_4m"
+  ],
+  "landing_ids": [
+    "stair_landing_4m",
+    "floor_wet_asphalt_4m",
+    "corridor_floor_4m"
+  ],
+  "corridor_ids": [
+    "corridor_floor_4m",
+    "floor_wet_asphalt_4m"
+  ],
+  "rules": [
+    "Staircases require adjacent landing or corridor tiles.",
+    "Staircases should not be directly blocked by wall tiles on immediate cardinal neighbors.",
+    "Up/down stair tiles should connect to a valid paired landing on the expected Y level.",
+    "Keep staircase count per room low unless a multi-level puzzle explicitly needs more."
+  ]
+}

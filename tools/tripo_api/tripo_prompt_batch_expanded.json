@@ -1,0 +1,296 @@
+{
+  "security_note": "No API key is included. Use TRIPO_API_KEY from local environment.",
+  "prompting_strategy": {
+    "character": "Ask for neutral A-pose/full body/clean silhouette/separate accessories/no text/no logo.",
+    "creature_robot": "Ask for hard-surface silhouette, readable core shapes, no famous robot/franchise references.",
+    "prop": "Ask for separate object, game environment prop, no readable text/logos, compact silhouette.",
+    "boss": "Ask for imposing silhouette and modular parts; consider segmented parts for separate wings/core/appendages."
+  },
+  "jobs": [
+    {
+      "id": "char_mara_voss",
+      "mode": "text",
+      "use_case": "npc humanoid",
+      "prompt": "original cyberpunk underground surgeon woman, neutral A-pose, full body, black clinic coat, chrome fingers, utility belt, clean silhouette, asymmetrical medical shoulder light, game-ready character base mesh, no text, no logo",
+      "negative_prompt": "text, logo, watermark, copyrighted character, extra limbs, fused fingers, distorted face, weapon fused to body",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 35000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Generate as character base; retopo in Blender if needed."
+    },
+    {
+      "id": "char_rainmarket_vendor",
+      "mode": "text",
+      "use_case": "npc vendor",
+      "prompt": "original cyberpunk rainmarket noodle vendor, neutral A-pose, layered plastic rain poncho, augmented visor, portable cooking harness, friendly silhouette, full body game asset, no text, no logo",
+      "negative_prompt": "text, logo, watermark, copyrighted character, extra limbs, distorted anatomy, unreadable clutter",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "face_limit": 30000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Good for civilian vendor population."
+    },
+    {
+      "id": "enemy_neon_cutter",
+      "mode": "text",
+      "use_case": "enemy humanoid",
+      "prompt": "original cyberpunk street gang melee enemy, neutral A-pose, slim agile silhouette, patched rain jacket, respirator mask, one separate neon knife accessory, combat boots, magenta cyan accents, game-ready enemy base mesh, no text, no logo",
+      "negative_prompt": "text, logo, watermark, famous character, extra limbs, fused weapon, messy silhouette",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 28000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Separate weapon in Blender if fused."
+    },
+    {
+      "id": "enemy_voltage_enforcer",
+      "mode": "text",
+      "use_case": "enemy bruiser",
+      "prompt": "original cyberpunk gang bruiser enemy, neutral A-pose, bulky padded jacket, electrical baton accessory, heavy boots, visible battery backpack, readable large silhouette, game-ready base mesh, no text, no logo",
+      "negative_prompt": "text, logo, watermark, extra arms, fused baton, distorted anatomy",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 32000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Use as elite silhouette variant."
+    },
+    {
+      "id": "enemy_corp_scout_drone",
+      "mode": "text",
+      "use_case": "drone enemy",
+      "prompt": "original compact corporate scout drone, hovering spherical body, camera eye, fold-out laser emitter, small stabilizer fins, black white gunmetal shell, red security lights, clean game asset, no text, no logo",
+      "negative_prompt": "text, logo, watermark, copyrighted robot, too many limbs, melted geometry",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 18000,
+        "quad": false,
+        "smart_low_poly": true,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Smart low poly can help repeated drones."
+    },
+    {
+      "id": "enemy_suppression_bot",
+      "mode": "text",
+      "use_case": "robot enemy",
+      "prompt": "original corporate suppression robot, stocky biped security machine, rectangular torso, rotating shoulder cannon housings, black glass and white armor panels, red warning lights, no text, no logo, game-ready hard surface mesh",
+      "negative_prompt": "text, logo, watermark, famous robot, organic face, extra limbs, melted parts",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 45000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Hard-surface boss add."
+    },
+    {
+      "id": "boss_sanctum9",
+      "mode": "text",
+      "use_case": "boss",
+      "prompt": "original cyberpunk corporate security angel drone boss, imposing symmetrical silhouette, wing-like laser arrays, black glass armor, red scanning eye, floating central core, game boss model concept, no text, no logo",
+      "negative_prompt": "text, logo, watermark, copyrighted robot, feathered angel, human face, messy silhouette",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 80000,
+        "quad": false,
+        "smart_low_poly": false,
+        "generate_parts": true,
+        "export_uv": true
+      },
+      "notes": "generate_parts can help separate wings/core; if using generate_parts set texture=false and pbr=false per API constraints."
+    },
+    {
+      "id": "boss_advert_god",
+      "mode": "text",
+      "use_case": "boss",
+      "prompt": "original rogue holographic advertisement daemon boss, floating mask-like projector core, segmented neon panels, cable halo, abstract non-letter glyphs, no readable text, no logo, surreal cyberpunk game boss mesh",
+      "negative_prompt": "readable letters, logo, watermark, copyrighted character, human body, messy thin fragments",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 70000,
+        "quad": false,
+        "smart_low_poly": false,
+        "generate_parts": true,
+        "export_uv": true
+      },
+      "notes": "Avoid readable typography."
+    },
+    {
+      "id": "prop_hacked_terminal",
+      "mode": "text",
+      "use_case": "interactive prop",
+      "prompt": "cyberpunk hacked terminal prop, rugged keyboard, cracked glass screen with abstract glow, cable bundles, compact floor-standing game asset, no readable text, no logo",
+      "negative_prompt": "letters, numbers, logo, watermark, brand, flat image plane only",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "face_limit": 16000,
+        "quad": false,
+        "smart_low_poly": true,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Interactable quest/hack object."
+    },
+    {
+      "id": "prop_clinic_workbench",
+      "mode": "text",
+      "use_case": "crafting station",
+      "prompt": "underground cyberpunk clinic crafting workbench, medical tools, implant clamps, steel table, green small lights, no blood, no logo, no readable text, game environment prop",
+      "negative_prompt": "text, logo, brand, gore, messy clutter, floating pieces",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "face_limit": 22000,
+        "quad": false,
+        "smart_low_poly": true,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Use as crafting station."
+    },
+    {
+      "id": "prop_neon_generator",
+      "mode": "text",
+      "use_case": "environment prop",
+      "prompt": "cyberpunk portable neon power generator prop, heavy battery case, glowing cyan coils, cables, rugged handles, game environment asset, no text, no logo",
+      "negative_prompt": "text, logo, watermark, brand, impossible thin wires only",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "face_limit": 18000,
+        "quad": false,
+        "smart_low_poly": true,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "VFX socket source."
+    },
+    {
+      "id": "weapon_pulse_blade",
+      "mode": "text",
+      "use_case": "loot weapon",
+      "prompt": "original cyberpunk pulse blade weapon, separate object, mono edge knife sword hybrid, black handle, cyan magenta energy channel, centered game asset, no text, no logo",
+      "negative_prompt": "text, logo, watermark, hand holding weapon, character, distorted blade",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 12000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Use as weapon pickup/equipment model."
+    },
+    {
+      "id": "weapon_rail_pistol",
+      "mode": "text",
+      "use_case": "loot weapon",
+      "prompt": "original cyberpunk rail pistol weapon, separate object, compact angular silhouette, black gunmetal body, cyan capacitor strip, no text, no logo, game-ready prop",
+      "negative_prompt": "text, logo, watermark, hand, character, real brand, distorted barrel",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "face_limit": 14000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Ranged weapon mesh."
+    },
+    {
+      "id": "vehicle_hover_delivery_drone",
+      "mode": "text",
+      "use_case": "background prop",
+      "prompt": "original cyberpunk hover delivery drone, boxy cargo body, four ducted fans, rain grime, cyan navigation lights, no text, no logo, environment prop",
+      "negative_prompt": "text, logo, watermark, real brand, messy propellers",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "face_limit": 26000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Set non-interactive background prop."
+    },
+    {
+      "id": "tile_holo_ad_kiosk",
+      "mode": "text",
+      "use_case": "landmark tile",
+      "prompt": "modular cyberpunk hologram advertisement kiosk, blank display panels with no text, no logos, sturdy base, cables, neon cyan magenta glow, 4 meter game environment landmark",
+      "negative_prompt": "readable text, logo, watermark, thin unstable geometry",
+      "parameters": {
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "face_limit": 30000,
+        "quad": true,
+        "smart_low_poly": false,
+        "generate_parts": false,
+        "export_uv": true
+      },
+      "notes": "Landmark prop for holo canyon."
+    }
+  ]
+}

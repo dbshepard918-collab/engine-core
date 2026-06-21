@@ -1,0 +1,7 @@
+id,category,subject,material,lighting,camera,width,height,seed,target_path,negative_prompt
+floor_wet_asphalt_01,tile_texture,seamless wet asphalt floor tile with subtle oil rainbow puddles,asphalt concrete grime,cyan magenta reflected neon,top down orthographic texture,1024,1024,101,assets/textures/tiles/floor_wet_asphalt_01.png,
+floor_metal_grate_01,tile_texture,seamless industrial metal grate floor tile with drainage slots,brushed steel rust dirt,blue neon edge glow,top down orthographic texture,1024,1024,102,assets/textures/tiles/floor_metal_grate_01.png,
+wall_holo_ad_panel_01,wall_texture,seamless cyberpunk wall panel with blank holographic ad frame,no readable text brushed metal,magenta cyan neon,front orthographic texture,1024,1024,201,assets/textures/walls/wall_holo_ad_panel_01.png,no text no logo
+prop_neon_sign_blank_01,prop_texture,blank neon sign prop surface with emissive border,no letters no logo,hot pink cyan glow,front orthographic texture,1024,1024,301,assets/textures/props/prop_neon_sign_blank_01.png,no text no letters no logo
+icon_black_ice_shard,icon,game inventory icon black ice shard crystal,glassy obsidian circuitry,cyan rim light,centered square icon,1024,1024,401,assets/textures/ui/icons/material_black_ice_shard.png,no text no logo
+character_mara_voss_ref,character_ref,full body cyberpunk underground surgeon woman original character,black clinic coat chrome fingers,soft clinic neon,front view character concept,1024,1536,501,assets/art_source/characters/mara_voss_ref.png,no text no watermark

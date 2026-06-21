@@ -1,0 +1,34 @@
+{
+  "tile_set_id": "lower_grid",
+  "cell_size": [
+    4,
+    4,
+    4
+  ],
+  "source_blender_file": "art_source/blender/lower_grid_tiles.blend",
+  "export_folder": "assets/meshes/tiles/lower_grid",
+  "scene_folder": "scenes/tiles/lower_grid",
+  "mesh_library": "data/tile_sets/lower_grid_mesh_library.tres",
+  "required_tiles": [
+    "floor_plain_4m",
+    "floor_wet_asphalt_4m",
+    "floor_metal_grate_4m",
+    "floor_cracked_concrete_4m",
+    "wall_solid_neon_4m",
+    "wall_holo_ad_blank_4m",
+    "wall_pipe_cluster_4m",
+    "wall_doorway_4m",
+    "wall_corner_inner_4m",
+    "wall_corner_outer_4m",
+    "stairs_down_4m",
+    "bridge_catwalk_4m",
+    "cover_concrete_barrier_2m",
+    "landmark_clinic_kiosk_8m",
+    "landmark_black_market_stall_8m"
+  ],
+  "naming_rules": [
+    "lowercase snake_case",
+    "include size suffix such as _4m or _8m",
+    "MeshLibrary item names must equal TileDefinition ids"
+  ]
+}

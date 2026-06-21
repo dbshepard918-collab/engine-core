@@ -1,0 +1,12 @@
+- id: neon_alley_tile_v001
+  model: stable-diffusion-3.5-medium
+  intent: modular environment concept
+  prompt: >
+    original cyberpunk alley modular game environment, wet asphalt, magenta and cyan neon,
+    readable isometric action RPG composition, no logos, no text, production concept art,
+    clean shapes, reusable wall segments, high detail
+  negative_prompt: >
+    copyrighted characters, existing game UI, illegible text, brand logos, blurry, low contrast
+  seed: 418233
+  output_use: concept only; manually remodel in Blender
+  license_review: required before production use

@@ -1,0 +1,42 @@
+{
+  "tile_scale_meters": 4,
+  "districts": [
+    "lower_grid",
+    "rainmarket",
+    "helix_plaza",
+    "holo_canyon"
+  ],
+  "required_sets": {
+    "floor": [
+      "plain",
+      "grate",
+      "cracked",
+      "wet",
+      "hazard"
+    ],
+    "wall": [
+      "solid",
+      "doorway",
+      "corner",
+      "window",
+      "holo_ad"
+    ],
+    "props": [
+      "vendor_stall",
+      "trash_bag",
+      "pipe_cluster",
+      "neon_sign_blank",
+      "terminal",
+      "bench",
+      "barricade"
+    ],
+    "sprites": [
+      "steam_puff",
+      "spark_loop",
+      "loot_glow",
+      "quest_marker",
+      "hack_marker",
+      "damage_burst"
+    ]
+  }
+}

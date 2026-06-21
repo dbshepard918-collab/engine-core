@@ -1,0 +1,121 @@
+{
+  "jobs": [
+    {
+      "id": "openworld_full_world_map_sd35",
+      "tool": "sd35",
+      "type": "world_map",
+      "region": "all",
+      "use_case": "macro_reference",
+      "prompt": "top-down stylized open world map for an original cyberpunk ARPG, five connected city regions, neon transit roads, district borders, dungeon entrance icons as abstract glowing gates without text, town hubs, hostile stronghold zones, side event pockets, readable Diablo-like ARPG world-map structure without copying any existing game, no labels, no logos",
+      "negative_prompt": "text, labels, logo, watermark, copied game map, real city map, satellite image, medieval parchment",
+      "width": "2048",
+      "height": "2048",
+      "seed": "7101",
+      "target": "assets/art_source/maps/open_world_macro_reference.png"
+    },
+    {
+      "id": "openworld_lower_grid_region_sd35",
+      "tool": "sd35",
+      "type": "region_map",
+      "region": "lower_grid",
+      "use_case": "region_reference",
+      "prompt": "top-down cyberpunk lower grid open-world region map, underpass roads, maintenance tunnels, gang toll plazas, 5 dungeon entrance plazas, hub safehouse, side event loops, elite patrol routes, readable ARPG map composition, no text, no logos",
+      "negative_prompt": "text, labels, logo, watermark, copied commercial map, medieval fantasy",
+      "width": "1536",
+      "height": "1536",
+      "seed": "7102",
+      "target": "assets/art_source/maps/lower_grid_region_reference.png"
+    },
+    {
+      "id": "openworld_rainmarket_region_sd35",
+      "tool": "sd35",
+      "type": "region_map",
+      "region": "rainmarket",
+      "use_case": "region_reference",
+      "prompt": "top-down rainy cyberpunk market open-world region, clinic hub, vendor streets, neon alleys, sewer dungeon entrances, side event plazas, safe paths and hostile pockets, original Diablo-like ARPG readability, no labels, no text",
+      "negative_prompt": "text, labels, logo, watermark, copied map, fantasy village",
+      "width": "1536",
+      "height": "1536",
+      "seed": "7103",
+      "target": "assets/art_source/maps/rainmarket_region_reference.png"
+    },
+    {
+      "id": "openworld_dungeon_entrance_tripo",
+      "tool": "tripo",
+      "type": "text_to_model",
+      "region": "all",
+      "use_case": "dungeon_entrance",
+      "prompt": "original cyberpunk dungeon entrance gate for top-down ARPG, modular glowing stairwell hatch, heavy metal frame, cyan magenta neon edge lights, clear interactable silhouette, no readable text, no logos, game-ready hard surface mesh",
+      "negative_prompt": "text, logo, watermark, fantasy cave door, brand, melted geometry",
+      "width": "0",
+      "height": "0",
+      "seed": "7201",
+      "target": "assets/meshes/poi/dungeon_entrance_gate.glb"
+    },
+    {
+      "id": "openworld_fast_travel_tripo",
+      "tool": "tripo",
+      "type": "text_to_model",
+      "region": "all",
+      "use_case": "fast_travel",
+      "prompt": "original cyberpunk fast travel beacon for top-down ARPG, circular transit pad, holographic ring, cyan light column, compact readable interactable landmark, no text, no logo",
+      "negative_prompt": "text, logo, watermark, waypoint copied from game, brand, messy geometry",
+      "width": "0",
+      "height": "0",
+      "seed": "7202",
+      "target": "assets/meshes/poi/fast_travel_beacon.glb"
+    },
+    {
+      "id": "openworld_stronghold_gate_tripo",
+      "tool": "tripo",
+      "type": "text_to_model",
+      "region": "helix_plaza",
+      "use_case": "stronghold",
+      "prompt": "original cyberpunk hostile stronghold gate, corporate lockdown barricade, scanner arch, red security lights, turret sockets, top-down readable landmark, no text, no logo",
+      "negative_prompt": "text, logo, watermark, medieval castle, copied fortress, melted geometry",
+      "width": "0",
+      "height": "0",
+      "seed": "7203",
+      "target": "assets/meshes/poi/stronghold_gate.glb"
+    },
+    {
+      "id": "dungeon_blacksite_floorplan_sd35",
+      "tool": "sd35",
+      "type": "dungeon_map",
+      "region": "helix_plaza",
+      "use_case": "dungeon_reference",
+      "prompt": "top-down procedural corporate blacksite dungeon floorplan for original cyberpunk ARPG, entrance room, branching corridors, locked side rooms, event rooms, objective lab, boss chamber, reward exit, clear room silhouettes, no labels, no text",
+      "negative_prompt": "text, labels, logo, watermark, copied dungeon map, medieval tomb",
+      "width": "1536",
+      "height": "1536",
+      "seed": "7301",
+      "target": "assets/art_source/dungeons/blacksite_floorplan.png"
+    },
+    {
+      "id": "dungeon_lower_grid_tunnel_sd35",
+      "tool": "sd35",
+      "type": "dungeon_map",
+      "region": "lower_grid",
+      "use_case": "dungeon_reference",
+      "prompt": "top-down procedural underpass tunnel dungeon floorplan, original cyberpunk ARPG, entrance stairwell, flooded branches, gang ambush rooms, generator objective room, boss arena, treasure pocket, readable combat lanes, no text, no labels",
+      "negative_prompt": "text, labels, logo, watermark, copied map, fantasy cavern",
+      "width": "1536",
+      "height": "1536",
+      "seed": "7302",
+      "target": "assets/art_source/dungeons/lower_grid_tunnel_floorplan.png"
+    },
+    {
+      "id": "dungeon_holo_server_sd35",
+      "tool": "sd35",
+      "type": "dungeon_map",
+      "region": "holo_canyon",
+      "use_case": "dungeon_reference",
+      "prompt": "top-down procedural holographic server dungeon floorplan, fragmented hardlight rooms, bridge corridors, data node objectives, signal storm event rooms, boss core chamber, reward exit, no labels, no text",
+      "negative_prompt": "text, labels, logo, watermark, copied dungeon map, medieval dungeon",
+      "width": "1536",
+      "height": "1536",
+      "seed": "7303",
+      "target": "assets/art_source/dungeons/holo_server_floorplan.png"
+    }
+  ]
+}
