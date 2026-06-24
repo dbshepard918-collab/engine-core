@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://cu43bro5t753a"]
+
+[ext_resource type="Script" uid="uid://bym5wus08u47c" path="res://addons/gaea/generators/2D/walker_generator/walker_generator.gd" id="1_cjsui"]
+[ext_resource type="Script" uid="uid://drquqgcgp4guv" path="res://addons/gaea/modifiers/2D/modifier_2d.gd" id="2_qwiib"]
+[ext_resource type="Script" uid="uid://ch80lkun5be5o" path="res://addons/gaea/generators/2D/walker_generator/walker_generator_settings.gd" id="3_hmdlt"]
+[ext_resource type="Script" uid="uid://diw8wf6iba8rk" path="res://addons/gaea/tile_info/gridmap_tile_info.gd" id="4_vq2kp"]
+[ext_resource type="Script" uid="uid://df3s3r04o07fo" path="res://addons/gaea/renderers/3D/gridmap_gaea_renderer.gd" id="5_ab5ey"]
+[ext_resource type="MeshLibrary" uid="uid://s3sv61l0r1np" path="res://data/tile_sets/lower_grid_mesh_library.tres" id="7_d7u3d"]
+
+[sub_resource type="Resource" id="Resource_d0ddm"]
+script = ExtResource("4_vq2kp")
+index = 1
+metadata/_custom_type_script = "uid://diw8wf6iba8rk"
+
+[sub_resource type="Resource" id="Resource_nmb52"]
+resource_name = "Settings"
+script = ExtResource("3_hmdlt")
+tile = SubResource("Resource_d0ddm")
+metadata/_custom_type_script = "uid://ch80lkun5be5o"
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_hgvd0"]
+
+[node name="WalkerGenerator" type="Node" unique_id=254496909]
+script = ExtResource("1_cjsui")
+settings = SubResource("Resource_nmb52")
+tile_size = Vector2i(4, 4)
+metadata/_custom_type_script = "uid://bym5wus08u47c"
+
+[node name="GridmapGaeaRenderer" type="Node" parent="." unique_id=218248630 node_paths=PackedStringArray("grid_map", "generator")]
+script = ExtResource("5_ab5ey")
+grid_map = NodePath("../GridMap")
+generator = NodePath("..")
+metadata/_custom_type_script = "uid://df3s3r04o07fo"
+
+[node name="GridMap" type="GridMap" parent="." unique_id=1763710362]
+mesh_library = ExtResource("7_d7u3d")
+physics_material = SubResource("PhysicsMaterial_hgvd0")

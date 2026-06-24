@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://t4visosbajhp"]
+
+[ext_resource type="Script" uid="uid://bwwguvints8j1" path="res://addons/gaea/generators/3D/generator_3d.gd" id="1_2q7an"]
+[ext_resource type="Script" uid="uid://df3s3r04o07fo" path="res://addons/gaea/renderers/3D/gridmap_gaea_renderer.gd" id="2_86mtd"]
+
+[sub_resource type="MeshLibrary" id="MeshLibrary_2q7an"]
+
+[node name="GaeaGenerator3D" type="Node" unique_id=1208251234]
+script = ExtResource("1_2q7an")
+tile_size = Vector3(2, 2, 2)
+editor_preview = false
+metadata/_custom_type_script = "uid://bwwguvints8j1"
+
+[node name="GridmapGaeaRenderer" type="Node" parent="." unique_id=885999933 node_paths=PackedStringArray("grid_map", "generator")]
+script = ExtResource("2_86mtd")
+grid_map = NodePath("../GridMap")
+generator = NodePath("..")
+metadata/_custom_type_script = "uid://df3s3r04o07fo"
+
+[node name="GridMap" type="GridMap" parent="." unique_id=83129224]
+mesh_library = SubResource("MeshLibrary_2q7an")
